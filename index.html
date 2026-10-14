@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Quest</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="image">
+        <img src="./vector-education-logo_779267-2083.avif" alt="mission icons" id="mount">
+
+        <div class="heading">
+            <h1 id="head">Campus Quest</h1>
+            <button id="colorBtn">Change Colour</button>
+            <h2 id="head2">Mission Tracker</h2>
+            <p>Small steps. Big goals!</p>
+        </div>
+    </div>
+
+    <div class="missions">
+        <input type="text" id="inp" placeholder="Enter a mission">
+        <button id="addBtn"> Add Mission</button>
+    </div>
+
+    <div class="boxes">
+        <div class="box total">
+            <h3>Total Missions</h3>
+            <p id="totalCount">0</p>
+        </div>
+
+        <div class="box completed">
+            <h3>Completed Missions</h3>
+            <p id="completedCount">0</p>
+        </div>
+
+        <div class="box pending">
+            <h3>Pending Missions</h3>
+            <p id="pendingCount">0</p>
+        </div>
+    </div>
+
+    <h3>☰ My Missions</h3>
+
+    <ul id="missionList"></ul>
+
+    <p class="message">Keep going! You're doing great!</p>
+
+    
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
