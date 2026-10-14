@@ -185,3 +185,41 @@ body > h3 {
         gap: 6px;
 }
 }
+/* Night Theme */
+body.night {
+    background-color: #222;
+    color: white;
+}
+
+body.night #head,
+body.night #head2,
+body.night .heading p,
+body.night > h3 {
+    color: white;
+}
+
+body.night .image {
+    background-color: #333;
+}
+
+body.night #missionList li {
+    background-color: #333;
+    color: white;
+    border-color: #555;
+}
+
+body.night #missionList li.done {
+    background-color: #244832;
+    color: #b8f0c8;
+}
+
+body.night .box {
+    background-color: #333;
+    color: white;
+}
+
+body.night #inp {
+    background-color: #333;
+    color: white;
+    border-color: #666;
+}
